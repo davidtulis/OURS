@@ -1,0 +1,11 @@
+xyz111:password:John Smith:Computer Science
+def111:_pass_:John Harris:Computer Science
+fed222:_word_:David Tulis:Computer Science
+abc333:java:Farah Kandah:Computer Science
+abc334:fish:Habte Churnet:Geology
+abc222:doom:Joseph Dumas:Computer Science
+abc223:winters:Katherine Winters:Computer Science
+abc224:logic:Mina Sartipi:Computer Science
+xyz112:geology:Jane Smith:Geology
+xyz113:chemistry:Martha Smith:Chemistry
+abc225:chem:John Lee:Chemistry

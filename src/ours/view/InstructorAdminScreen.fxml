@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="497.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="ours.controller.InstructorAdminScreenController">
+  <children>
+    <ListView fx:id="instructorScheduleView" layoutX="0.0" layoutY="49.0" onMouseClicked="#handleListViewSelection" prefHeight="200.0" prefWidth="600.0" />
+    <Button fx:id="printButton" layoutX="138.0" layoutY="423.0" mnemonicParsing="false" onAction="#handlePrintButton" text="Print" />
+    <Button fx:id="logoutButton" layoutX="520.0" layoutY="463.0" mnemonicParsing="false" onAction="#handleLogoutButton" text="Logout" />
+    <Label fx:id="courseID" layoutX="92.0" layoutY="287.0" prefWidth="185.0" text="Label" />
+    <Label fx:id="courseName" layoutX="92.0" layoutY="319.0" prefWidth="185.0" text="Label" />
+    <Label fx:id="courseSection" layoutX="91.0" layoutY="350.0" prefWidth="185.0" text="Label" />
+    <Label fx:id="courseDepartment" layoutX="92.0" layoutY="383.0" prefWidth="185.0" text="Label" />
+    <Label fx:id="courseDays" layoutX="378.0" layoutY="284.0" prefWidth="185.0" text="Label" />
+    <Label fx:id="courseTime" layoutX="378.0" layoutY="316.0" prefWidth="185.0" text="Label" />
+    <Label fx:id="courseInstructor" layoutX="378.0" layoutY="350.0" prefWidth="185.0" text="Label" />
+    <Label fx:id="courseCapacity" layoutX="378.0" layoutY="377.0" prefWidth="185.0" text="Label" />
+    <Label layoutX="65.0" layoutY="287.0" text="ID:" />
+    <Label layoutX="45.0" layoutY="319.0" text="Name:" />
+    <Label layoutX="38.0" layoutY="350.0" text="Section:" />
+    <Label layoutX="13.0" layoutY="383.0" text="Department:" />
+    <Label layoutX="336.0" layoutY="284.0" text="Days:" />
+    <Label layoutX="336.0" layoutY="316.0" text="Time:" />
+    <Label layoutX="311.0" layoutY="350.0" text="Instructor:" />
+    <Label layoutX="317.0" layoutY="377.0" text="Capacity:" />
+  </children>
+</AnchorPane>

@@ -1,0 +1,6 @@
+100002:Oceanography:1:MWF:1100a-1150a:20:abc334:Geology:def111:
+100003:Operating Systems:1:MW:400p-515p:25:abc222:Computer Science:def111:
+100001:Software Design:1:TH:140p-255p:25:abc333:Computer Science:def111:fed222:
+589985:Principles of Info Sec:1:MWF:900a-950a:20:abc223:Computer Science:fed222:
+477978:Digital Logic:1:TH:1215p-130p:25:abc224:Computer Science:def111:fed222:
+971779:General Chemistry:1:TH:100p-150p:25:abc225:Chemistry:def111:

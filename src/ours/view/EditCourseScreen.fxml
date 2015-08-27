@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="412.0" prefWidth="435.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="ours.controller.EditCourseScreenController">
+  <children>
+    <Label fx:id="courseSection" layoutX="68.0" layoutY="89.0" text="Section:" />
+    <Label fx:id="courseDays" layoutX="68.0" layoutY="130.0" text="Days:" />
+    <Label fx:id="courseTime" layoutX="68.0" layoutY="171.0" text="Time:" />
+    <Label fx:id="courseCapacity" layoutX="68.0" layoutY="215.0" text="Capacity:" />
+    <Label fx:id="courseInstructor" layoutX="68.0" layoutY="259.0" text="Instructor:" />
+    <Label fx:id="courseName" labelFor="$courseName" layoutX="68.0" layoutY="51.0" text="Course:" />
+    <Label fx:id="courseDepartment" layoutX="68.0" layoutY="301.0" text="Department:" />
+    <TextField fx:id="courseNameTextField" layoutX="153.0" layoutY="48.0" prefWidth="200.0" />
+    <TextField fx:id="courseSectionTextField" layoutX="153.0" layoutY="86.0" prefWidth="200.0" />
+    <TextField fx:id="courseDaysTextField" layoutX="153.0" layoutY="127.0" prefWidth="200.0" />
+    <TextField fx:id="courseTimeTextField" layoutX="153.0" layoutY="168.0" prefWidth="200.0" />
+    <TextField fx:id="courseCapacityTextField" layoutX="153.0" layoutY="212.0" prefWidth="200.0" />
+    <TextField fx:id="courseDepartmentTextField" layoutX="153.0" layoutY="298.0" prefWidth="200.0" />
+    <Button fx:id="finishButton" layoutX="320.0" layoutY="357.0" mnemonicParsing="false" onAction="#handleFinishButton" text="Finish" />
+    <Button fx:id="cancelButton" layoutX="72.0" layoutY="357.0" mnemonicParsing="false" onAction="#handleCancelButton" text="Cancel" />
+    <ComboBox fx:id="courseInstructorComboBox" layoutX="153.0" layoutY="257.0" prefWidth="200.0">
+      <items>
+        <FXCollections fx:factory="observableArrayList">
+          <String fx:value="Item 1" />
+          <String fx:value="Item 2" />
+          <String fx:value="Item 3" />
+        </FXCollections>
+      </items>
+    </ComboBox>
+  </children>
+</AnchorPane>
